@@ -1,0 +1,123 @@
+body {
+  background-image: url('../../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9cb7a0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  margin: 5px;
+}
+
+h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 72px;
+  text-align: center;
+}
+
+.main-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 25px;
+  max-width: 1300px;
+  justify-content: center;
+}
+
+#form {
+  background-color: rgba(255, 255, 255, .8);
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  max-width: 600px;
+  min-width: 500px;
+  padding: 25px 20px;
+  text-align: justify;
+}
+
+#results-view {
+  background-color: rgba(255, 255, 255, .8);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+#results-view p {
+  padding: 0px 30px;
+}
+
+.display-view {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 600px;
+  justify-content: center;
+}
+
+#form-item {
+  margin: 4px;
+}
+
+#car {
+  margin-left: 120px;
+}
+
+#train {
+  margin-left: 19px;
+}
+
+#plane {
+  margin-left: 57px;
+}
+
+#meatDropdown {
+  margin-left: 150px;
+}
+
+div.radio-group {
+  display: flex;
+  flex: 1;
+}
+
+.radio-item {
+  margin: 10px;
+  text-align: center;
+}
+
+
+button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  font-family: 'Megrim', cursive;
+  font-size: 36px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 1200px) {
+  .display-view {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #results-view {
+    margin-top: 10px;
+    width: 600px;
+  }
+}
